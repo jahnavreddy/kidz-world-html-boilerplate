@@ -1,0 +1,105 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.cart{
+   border: 1px solid none;
+    background-color: rgb(97,150,255);
+    display: flex;
+    width: 52px;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+    margin-top: -8px;
+    margin-left: 75px;
+    
+}
+
+.cost{
+  display: flex;
+  margin-top: 10px;
+}
+
+.books{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Newgames{
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-top: 200px; */
+}
+
+.love{
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-top: 250px; */
+}
+
+#navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
+#kwbl{
+  width: 100%;
+}
+
+/* .shop{
+  margin-top: -200px; */
+
+
+#discover{
+  margin-left:50px;
+  margin-top: 40px;
+}
+
+.second{
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+.handmade{
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.footer{
+  height: 150px;
+  background-color: black;
+  margin-top: 80px;
+  color: white;
+  font-size: 20px;
+}
+
+#doneby{
+  margin-left: 1200px;
+}
+
+@media (max-width:400px){
+  .books{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Newgames{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .love{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
